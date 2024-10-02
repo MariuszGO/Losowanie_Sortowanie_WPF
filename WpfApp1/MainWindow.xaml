@@ -19,9 +19,9 @@
             <RowDefinition Height="1*"></RowDefinition>
             <RowDefinition Height="1*"></RowDefinition>
         </Grid.RowDefinitions>
-        <TextBox FontSize="20px" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="2,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="120"/>
-        <TextBox FontSize="20px" Grid.Column="2" HorizontalAlignment="Left" Margin="3,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120"/>
-        <TextBox FontSize="20px" Grid.Column="3" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120"/>
+        <TextBox x:Name="liczba_a" FontSize="20px" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="2,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="120"/>
+        <TextBox x:Name="liczba_b" FontSize="20px" Grid.Column="2" HorizontalAlignment="Left" Margin="3,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120"/>
+        <TextBox x:Name="ilosc" FontSize="20px" Grid.Column="3" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120"/>
         <TextBlock FontSize="20px" Grid.Column="1" HorizontalAlignment="Left" Margin="2,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" ><Run Language="pl-pl" Text="Zakres od:"/></TextBlock>
         <TextBlock FontSize="20px" Grid.Column="2" HorizontalAlignment="Left" Margin="3,10,0,0" TextWrapping="Wrap" Width="97" VerticalAlignment="Top"><Run Language="pl-pl" Text="Zakres do:"/></TextBlock>
         <TextBlock FontSize="20px" Grid.Column="3" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Ilość Liczb" VerticalAlignment="Top"/>
